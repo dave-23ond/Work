@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave2j portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333; /* Add a background color for visibility */
+            color: white; /* Set text color to white for visibility */
+        }
+
+        h2 {
+            margin: 0; /* Remove default margin for h2 */
+        }
+        main{
+            text-align: center; /* to center everything within it */
+            font-family: serif;
+        }
+        footer{
+            text-align: center;
+            background-color: #333;;
+        }
+        footer p{
+            margin-bottom: 0;
+            color: white;
+        }
+        footer a{
+            text-decoration: none;
+            color: teal;
+            line-height: 3;
+            padding: 0 0 0 10px;
+        }
+        img{
+            width: 100px; /* set to give the image a specific width */
+            margin: 10px 0; /* set to put some space btwn image and top and bottom */
+            border-radius: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .top-container p{
+            margin: 0; /* set to remove the paragraph top margin */
+            margin-top: 15px;
+        }
+        hr{
+             border: dotted 1px grey;
+             border-bottom: none;
+             width: 50%;
+             font-size: 10px;
+        }
+        .top-container{
+            margin: 0 auto;
+            width: 50%;
+        }
+        .top-container > img{
+            float: right;
+            padding-left: 10px;
+        }
+        .mid-container{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .mid-container > img{
+            float: right;
+            padding-left: 10px;
+        }
+        .bottom-container{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .bottom-container > img{
+            float: right;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <i class="bx bx-menu"></i>
+        <h2>Dave2j portfolio</h2>
+    </header>
+    <main>
+        <div class="top-container">
+            <img src="https://i.imgur.com/3DhOKsP.jpg" alt="my image">
+            <p>I'm Daniel Dave, an iOS and modern web developer. Passionate about crafting innovative solutions, I merge creativity with technology. As a nature enthusiast, I explore the beauty of science while navigating the dynamic realms of code.</p>
+        </div>
+        <hr>
+        <div class="mid-container">
+            <img src="https://i.imgur.com/1P9fsRJ.jpg" alt="computer">
+            <p>I love the way technology makes the world connected and the do's and done's of life smooth</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>work</th>
+                        <th>rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ios production</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Android production</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>windows production</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>best in the world</td>
+                        <td>no. 2✊🌚</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <hr>
+        <div class="bottom-container">
+            <img src="https://i.imgur.com/HsGzuJf.jpg" alt="game">
+            <p>Gaming is something i so in my free time, to blow of some steam 😪 and have some fun.</p>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>For more information about me and what i do, be sure to contact me on </p>
+            <a href="wa.me//+2348061486364">WhatsApp</a>
+            <a href="#">Twitter</a>
+            <a href="mailto: gojodaniel912@gmail.com">email me</a>
+            <p>© dave2j personal portfolio 2023.</p>
+        </div>
+    </footer>
+</body>
+</html>
